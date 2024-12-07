@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="Box-container">
+        <div class="modal">
+
+        </div>
+    </div>
+
+    <div class="main" id="main-Box-Login">
+
+        <div class="container">
+
+            <h1>login</h1>
+
+            <form onsubmit="toCheckLogin(event)">
+
+                <div class="inp-Box">
+                    <input type="text" name="email" id="login-email" placeholder="Email Address">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div class="inp-Box">
+                    <input type="password" name="password" id="login-password" placeholder="Your Password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <div class="inp-Box submit-Box">
+                    <input type="submit" class="submit" value="submit">
+                </div>
+
+                <a href="./Sign-Up/signUp.html">Sign Up</a>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- <img src="" alt=""> -->
+
+</body>
+
+<script src="login.js"></script>
+
+</html>

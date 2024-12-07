@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/digital-art1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 30%;
+    background-color: #ffffff56;
+    text-align: center;
+    padding: 5% 4% 8%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 6%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp-Box {
+    width: 70%;
+    height: 2.5em;
+    border: solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+input {
+    width: 85%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+}
+
+input::placeholder {
+    color: #000000;
+    font-size: 1em;
+    opacity: 1;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+.submit {
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
